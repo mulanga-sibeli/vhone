@@ -1,2 +1,2 @@
 # platformed-lamps
-Lamps with platform like base.
+Lamps with a platform like base.
