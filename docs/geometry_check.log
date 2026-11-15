@@ -1,45 +1,19 @@
-took src/lamp.py::enclosure warm in 0.09s: its document in memory holds the model's key, 1 body loaded, nothing ran
+took src/lamp.py::enclosure warm in 0.03s: its document in memory holds the model's key, 1 body loaded, nothing ran
   parts 1 · bounds 140 × 141.2 × 250 mm · joints 0 · sequences 0
-  id: 1d3676a8-b091-5dfb-bfa0-fefce3663592
-  view: http://127.0.0.1:3245/1d3676a8-b091-5dfb-bfa0-fefce3663592?token=4948351901.AfZQZnYv14JHS3rpvBvJVYU6a28EYBhcj2fXKrM50E0
-took src/lamp.py::lid warm in 0.04s: its document in memory holds the model's key, 1 body loaded, nothing ran
+  id: 2de930f2-3ca4-5543-9395-942bee19a84b
+took src/lamp.py::lid warm in 0.02s: its document in memory holds the model's key, 1 body loaded, nothing ran
   parts 1 · bounds 140 × 140 × 13 mm · joints 0 · sequences 0
-  id: b094312f-6c31-556b-9898-a96fc2dd2698
-  view: http://127.0.0.1:3245/b094312f-6c31-556b-9898-a96fc2dd2698?token=4948351904.k1SLZ1UOd1a8Yt-bmQ8FPjpTXnNbT8XH2paFd3SIiwM
-took src/lamp.py::tray warm in 0.01s: its document in memory holds the model's key, 1 body loaded, nothing ran
-  parts 1 · bounds 129.2 × 129.2 × 11 mm · joints 0 · sequences 0
-  id: 19f1aa36-e698-5f38-9387-f361284e793d
-  view: http://127.0.0.1:3245/19f1aa36-e698-5f38-9387-f361284e793d?token=4948351904.k1SLZ1UOd1a8Yt-bmQ8FPjpTXnNbT8XH2paFd3SIiwM
-took src/lamp.py::adapter_60 warm in 0.01s: its document in memory holds the model's key, 1 body loaded, nothing ran
-  parts 1 · bounds 100.5 × 101.2 × 12.4 mm · joints 0 · sequences 0
-  id: 9600e500-2d48-51f1-9a51-4cf7b6bc66c8
-  view: http://127.0.0.1:3245/9600e500-2d48-51f1-9a51-4cf7b6bc66c8?token=4948351904.k1SLZ1UOd1a8Yt-bmQ8FPjpTXnNbT8XH2paFd3SIiwM
-took src/lamp.py::adapter_70 warm in 0.01s: its document in memory holds the model's key, 1 body loaded, nothing ran
-  parts 1 · bounds 100.5 × 101.2 × 8.4 mm · joints 0 · sequences 0
-  id: 648b8ee9-7515-568f-9737-2b5ee7622ce6
-  view: http://127.0.0.1:3245/648b8ee9-7515-568f-9737-2b5ee7622ce6?token=4948351904.k1SLZ1UOd1a8Yt-bmQ8FPjpTXnNbT8XH2paFd3SIiwM
-took src/lamp.py::adapter_e27 warm in 0.00s: its document in memory holds the model's key, 1 body loaded, nothing ran
-  parts 1 · bounds 100.5 × 101.2 × 26.4 mm · joints 0 · sequences 0
-  id: f89d6e58-546e-5e9a-99b0-cc5cf209a8a9
-  view: http://127.0.0.1:3245/f89d6e58-546e-5e9a-99b0-cc5cf209a8a9?token=4948351904.k1SLZ1UOd1a8Yt-bmQ8FPjpTXnNbT8XH2paFd3SIiwM
-took src/lamp.py::assembled warm in 0.01s: its document in memory holds the model's key, 5 bodies loaded, nothing ran
-  parts 4 · bounds 140 × 141.2 × 256 mm · joints 0 · sequences 0
-  id: 881fed14-cdd0-5f8a-bb7f-686451c55427
-  view: http://127.0.0.1:3245/881fed14-cdd0-5f8a-bb7f-686451c55427?token=4948351904.k1SLZ1UOd1a8Yt-bmQ8FPjpTXnNbT8XH2paFd3SIiwM
-took src/lamp.py::exploded warm in 0.01s: its document in memory holds the model's key, 5 bodies loaded, nothing ran
-  parts 4 · bounds 329.6 × 141.2 × 321 mm · joints 0 · sequences 0
-  id: a114e2d0-c7c2-56b7-bc29-97331a0d73cd
-  view: http://127.0.0.1:3245/a114e2d0-c7c2-56b7-bc29-97331a0d73cd?token=4948351905.Bl8MnTxnWwKqqWcrMZwEaeTgmd7qhejDsw6hdPc4aco
-took src/lamp.py::assembled warm in 0.02s: its document in memory holds the model's key, 5 bodies loaded, nothing ran
-  parts 4 · bounds 140 × 141.2 × 256 mm · joints 0 · sequences 0
-  id: 881fed14-cdd0-5f8a-bb7f-686451c55427
-  view: http://127.0.0.1:3245/881fed14-cdd0-5f8a-bb7f-686451c55427?token=4948351905.Bl8MnTxnWwKqqWcrMZwEaeTgmd7qhejDsw6hdPc4aco
-took src/lamp.py::adapter_70 warm in 0.01s: its document in memory holds the model's key, 1 body loaded, nothing ran
-  parts 1 · bounds 100.5 × 101.2 × 8.4 mm · joints 0 · sequences 0
-  id: 648b8ee9-7515-568f-9737-2b5ee7622ce6
-  view: http://127.0.0.1:3245/648b8ee9-7515-568f-9737-2b5ee7622ce6?token=4948351908.P1mQ4fPMiM-KZv_3IsuVB8mk59-ocKQYSJIpNcbbhuk
-took src/lamp.py::adapter_e27 warm in 0.01s: its document in memory holds the model's key, 1 body loaded, nothing ran
-  parts 1 · bounds 100.5 × 101.2 × 26.4 mm · joints 0 · sequences 0
-  id: f89d6e58-546e-5e9a-99b0-cc5cf209a8a9
-  view: http://127.0.0.1:3245/f89d6e58-546e-5e9a-99b0-cc5cf209a8a9?token=4948351908.P1mQ4fPMiM-KZv_3IsuVB8mk59-ocKQYSJIpNcbbhuk
-PASS: valid parts; 140 x 141.2 x 256 envelope (including emboss); measured walls, mating gaps, contacts and light fit; negative controls detect interference.
+  id: 00e1dc10-20af-5af0-9170-d7e36ec72f55
+took src/lamp.py::assembled warm in 0.01s: its document in memory holds the model's key, 3 bodies loaded, nothing ran
+  parts 2 · bounds 140 × 141.2 × 256 mm · joints 0 · sequences 0
+  id: ca734ad9-710c-5bf3-86d7-3e2454e4a5c7
+took src/lamp.py::exploded warm in 0.01s: its document in memory holds the model's key, 3 bodies loaded, nothing ran
+  parts 2 · bounds 140 × 141.2 × 321 mm · joints 0 · sequences 0
+  id: dfcc9572-25b2-5e42-84ee-231373e38a9b
+took src/lamp.py::assembled warm in 0.01s: its document in memory holds the model's key, 3 bodies loaded, nothing ran
+  parts 2 · bounds 140 × 141.2 × 256 mm · joints 0 · sequences 0
+  id: ca734ad9-710c-5bf3-86d7-3e2454e4a5c7
+PASS: two printable parts; 140 x 141.2 x 256 mm envelope; measured 5 mm walls/floor/lid and 0.4 mm lid side clearance.
+PASS: centred 77 x 77 x 40 mm holder envelope rests on floor without overlap; 26.5 mm side clearance; 206 mm to central lid underside; full insertion sweep clear.
+PASS: negative controls detect shifted lid, shifted holder and holder penetrating floor.
+LIMIT: holder width assumed <=77 mm; new bulb fit, adhesive and operating temperatures not checked.

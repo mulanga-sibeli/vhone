@@ -1,7 +1,6 @@
 {
   "enclosure": {
-    "id": "1d3676a8-b091-5dfb-bfa0-fefce3663592",
-    "url": "http://127.0.0.1:3245/1d3676a8-b091-5dfb-bfa0-fefce3663592?token=4948351901.AfZQZnYv14JHS3rpvBvJVYU6a28EYBhcj2fXKrM50E0",
+    "id": "2de930f2-3ca4-5543-9395-942bee19a84b",
     "bounds_mm": [
       140.0,
       141.2,
@@ -10,8 +9,7 @@
     "volume_mm3": 757201.0
   },
   "lid": {
-    "id": "b094312f-6c31-556b-9898-a96fc2dd2698",
-    "url": "http://127.0.0.1:3245/b094312f-6c31-556b-9898-a96fc2dd2698?token=4948351904.k1SLZ1UOd1a8Yt-bmQ8FPjpTXnNbT8XH2paFd3SIiwM",
+    "id": "00e1dc10-20af-5af0-9170-d7e36ec72f55",
     "bounds_mm": [
       140.0,
       140.0,
@@ -19,65 +17,23 @@
     ],
     "volume_mm3": 105493.409
   },
-  "tray": {
-    "id": "19f1aa36-e698-5f38-9387-f361284e793d",
-    "url": "http://127.0.0.1:3245/19f1aa36-e698-5f38-9387-f361284e793d?token=4948351904.k1SLZ1UOd1a8Yt-bmQ8FPjpTXnNbT8XH2paFd3SIiwM",
-    "bounds_mm": [
-      129.2,
-      129.2,
-      11.0
-    ],
-    "volume_mm3": 54309.514
-  },
-  "adapter_60": {
-    "id": "9600e500-2d48-51f1-9a51-4cf7b6bc66c8",
-    "url": "http://127.0.0.1:3245/9600e500-2d48-51f1-9a51-4cf7b6bc66c8?token=4948351904.k1SLZ1UOd1a8Yt-bmQ8FPjpTXnNbT8XH2paFd3SIiwM",
-    "bounds_mm": [
-      100.486,
-      101.2,
-      12.4
-    ],
-    "volume_mm3": 16025.591
-  },
-  "adapter_70": {
-    "id": "648b8ee9-7515-568f-9737-2b5ee7622ce6",
-    "url": "http://127.0.0.1:3245/648b8ee9-7515-568f-9737-2b5ee7622ce6?token=4948351904.k1SLZ1UOd1a8Yt-bmQ8FPjpTXnNbT8XH2paFd3SIiwM",
-    "bounds_mm": [
-      100.486,
-      101.2,
-      8.4
-    ],
-    "volume_mm3": 12445.589
-  },
-  "adapter_e27": {
-    "id": "f89d6e58-546e-5e9a-99b0-cc5cf209a8a9",
-    "url": "http://127.0.0.1:3245/f89d6e58-546e-5e9a-99b0-cc5cf209a8a9?token=4948351904.k1SLZ1UOd1a8Yt-bmQ8FPjpTXnNbT8XH2paFd3SIiwM",
-    "bounds_mm": [
-      100.486,
-      101.2,
-      26.4
-    ],
-    "volume_mm3": 22144.986
-  },
   "assembled": {
-    "id": "881fed14-cdd0-5f8a-bb7f-686451c55427",
-    "url": "http://127.0.0.1:3245/881fed14-cdd0-5f8a-bb7f-686451c55427?token=4948351904.k1SLZ1UOd1a8Yt-bmQ8FPjpTXnNbT8XH2paFd3SIiwM",
+    "id": "ca734ad9-710c-5bf3-86d7-3e2454e4a5c7",
     "bounds_mm": [
       140.0,
       141.2,
       256.0
     ],
-    "volume_mm3": 933029.514
+    "volume_mm3": 862694.409
   },
   "exploded": {
-    "id": "a114e2d0-c7c2-56b7-bc29-97331a0d73cd",
-    "url": "http://127.0.0.1:3245/a114e2d0-c7c2-56b7-bc29-97331a0d73cd?token=4948351905.Bl8MnTxnWwKqqWcrMZwEaeTgmd7qhejDsw6hdPc4aco",
+    "id": "dfcc9572-25b2-5e42-84ee-231373e38a9b",
     "bounds_mm": [
-      329.6,
+      140.0,
       141.2,
       321.0
     ],
-    "volume_mm3": 933029.514
+    "volume_mm3": 862694.409
   },
   "verified": {
     "wall_mm": 5.0,
@@ -87,24 +43,26 @@
     "emboss_depth_mm": 1.2,
     "emboss_front_width_mm": 78.057,
     "emboss_front_height_mm": 15.127,
-    "lid_and_tray_side_clearance_mm": 0.4,
-    "60mm_light_radial_clearance_mm": 0.5,
-    "light_envelope_mm": [
-      60,
-      60,
-      145
+    "lid_side_clearance_mm": 0.4,
+    "internal_floor_width_depth_mm": [
+      130,
+      130
     ],
-    "large_light_envelope_mm": [
-      100,
-      100,
-      150
+    "holder_check_envelope_mm": [
+      77,
+      77,
+      40
     ],
-    "alternate_rings": "no interference with body, cap or tray",
-    "tray_lift_samples_mm": [
-      20,
-      120,
-      250
-    ],
-    "negative_controls": "passed: shifted lid and oversize light collide"
+    "holder_width_assumption": "Width no greater than supplied 77 mm length; square envelope also contains a diameter-77 mm round base.",
+    "holder_mount_surface_z_mm": 5.0,
+    "holder_wall_clearance_mm": 26.5,
+    "holder_top_to_central_lid_underside_mm": 206.0,
+    "holder_insertion": "77 mm square vertical sweep clears open enclosure",
+    "negative_controls": "passed: shifted lid, shifted holder and holder below floor collide",
+    "limits": [
+      "new bulb dimensions not supplied; bulb fit not checked",
+      "adhesive thickness, bond strength and thermal performance not checked",
+      "holder envelope check only; no vendor CAD or universal E27 holder dimensions"
+    ]
   }
 }

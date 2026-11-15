@@ -1,6 +1,2 @@
-PASS adapter_60.stl: 1148 triangles, closed consistently wound edges, positive volume 16020.86 mm3, CAD bounds match, print bed Z=0
-PASS adapter_70.stl: 1200 triangles, closed consistently wound edges, positive volume 12442.06 mm3, CAD bounds match, print bed Z=0
-PASS adapter_e27.stl: 936 triangles, closed consistently wound edges, positive volume 22134.49 mm3, CAD bounds match, print bed Z=0
 PASS enclosure.stl: 1116 triangles, closed consistently wound edges, positive volume 757167.06 mm3, CAD bounds match, print bed Z=0
 PASS lid.stl: 364 triangles, closed consistently wound edges, positive volume 105491.81 mm3, CAD bounds match, print bed Z=0
-PASS tray.stl: 980 triangles, closed consistently wound edges, positive volume 54308.75 mm3, CAD bounds match, print bed Z=0

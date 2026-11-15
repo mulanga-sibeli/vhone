@@ -5,7 +5,8 @@ Check each printable model:
 cad model dfm ID --process printing --technology fdm --material petg \
     --nozzle 0.4 --layer-height 0.2 --build-volume 256x256x256
 Assembly: cad model interference ID
-Reference: examples/cosmos_723682210.webp; dimensions are design choices.
+Reference: https://www.cosmos.so/e/723682210; dimensions are design choices.
+Purchased E27 holder is glued to the integral floor; only body and lid are printed.
 """
 import build123d as bd
 from bd_materials import plastics
@@ -28,19 +29,11 @@ LID_THICKNESS = 5.0
 LID_GAP = 1.0
 SKIRT_HEIGHT = 8.0
 SKIRT_WALL = 2.0
-TRAY_THICKNESS = 3.0
-SEAT_DIAMETER = 102.0
-SEAT_WALL = 2.0
-SEAT_HEIGHT = 8.0
 ASSEMBLED_HEIGHT = BODY_HEIGHT + LID_GAP + LID_THICKNESS
 
 
 def box(w, d, h, x=0, y=0, z=0):
     return bd.Pos(x, y, z) * bd.Box(w, d, h, align=(bd.Align.CENTER, bd.Align.CENTER, bd.Align.MIN))
-
-
-def cylinder(diameter, height, z=0):
-    return bd.Pos(0, 0, z) * bd.Cylinder(diameter / 2, height, align=(bd.Align.CENTER, bd.Align.CENTER, bd.Align.MIN))
 
 
 def rounded_box(w, d, h, radius, z=0):
@@ -100,71 +93,22 @@ def lid():
 
 
 @model
-def tray():
-    part = rounded_box(WIDTH-2*WALL-2*FIT, DEPTH-2*WALL-2*FIT, TRAY_THICKNESS, 2)
-    # Ribbon slots: a removable ribbon loop lifts the tray out of the deep body.
-    for x in (-60, 60):
-        part -= box(3, 12, TRAY_THICKNESS+2, x=x, z=-1)
-    seat = cylinder(SEAT_DIAMETER+2*SEAT_WALL, SEAT_HEIGHT, TRAY_THICKNESS)
-    seat -= cylinder(SEAT_DIAMETER, SEAT_HEIGHT+1, TRAY_THICKNESS)
-    # Four open-top finger/air notches, retaining four connected cradle arcs.
-    for angle in (0, 90, 180, 270):
-        seat -= bd.Rot(0, 0, angle) * box(12, 12, SEAT_HEIGHT+1, x=SEAT_DIAMETER/2, z=TRAY_THICKNESS)
-    part += seat
-    return finish(part, "removable_tray", amber=False)
-
-
-def adapter_body(bore, height, label):
-    # Full flange locates in the tray; an upright collar supports the light.
-    outer = SEAT_DIAMETER-2*FIT
-    part = cylinder(outer, 2.4) - cylinder(bore, 3.4)
-    collar = cylinder(bore+4, height, 2.4) - cylinder(bore, height+1, 2.4)
-    part += collar
-    # Finger notches in the flange, clear of the collar.
-    for x in (-outer/2, outer/2):
-        part -= box(8, 12, 3.4, x=x, z=-0.5)
-    return finish(part, label, amber=False)
-
-
-@model
-def adapter_60():
-    return adapter_body(61.0, 10, "adapter_60mm_lantern")
-
-
-@model
-def adapter_70():
-    return adapter_body(70.5, 6, "adapter_69_5mm_puck")
-
-
-@model
-def adapter_e27():
-    # Mechanical cradle only. No electrical contacts or printed screw thread.
-    return adapter_body(28.4, 24, "adapter_usb_e27_mechanical_only")
-
-
-@model
 def assembled():
     body = enclosure().shape
     cap = bd.Pos(0, 0, ASSEMBLED_HEIGHT) * bd.Rot(180, 0, 0) * lid().shape
-    insert = bd.Pos(0, 0, FLOOR) * tray().shape
-    reducer = bd.Pos(0, 0, FLOOR+TRAY_THICKNESS) * adapter_60().shape
-    result = bd.Compound(children=[body, cap, insert, reducer], label="AMBER_01")
+    result = bd.Compound(children=[body, cap], label="AMBER_01")
     assert abs(result.bounding_box().size.Z - ASSEMBLED_HEIGHT) < 1e-6
     return result
 
 
 @model
 def exploded():
-    # Side-by-side components expose the opening and holder, without hiding either.
+    # Lift the lid to expose the flat floor for the purchased holder.
     body = enclosure().shape
     cap = bd.Pos(0, 0, ASSEMBLED_HEIGHT+65) * bd.Rot(180, 0, 0) * lid().shape
-    insert = bd.Pos(195, 0, 0) * tray().shape
-    reducer = bd.Pos(195, 0, 35) * adapter_60().shape
-    return bd.Compound(children=[body, cap, insert, reducer], label="AMBER_01_parts")
+    return bd.Compound(children=[body, cap], label="AMBER_01_parts")
 
 
 if __name__ == "__main__":
     assembled()
     exploded()
-    adapter_70()
-    adapter_e27()

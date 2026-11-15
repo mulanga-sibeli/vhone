@@ -1,5 +1,5 @@
 {
-  "revision": "B",
+  "revision": "C",
   "date": "2026-11-15",
   "process": "FDM PETG",
   "nozzle_mm": 0.4,
@@ -10,21 +10,6 @@
     256
   ],
   "parts": {
-    "adapter_60": {
-      "status": "ok",
-      "errors": 0,
-      "warnings": 0
-    },
-    "adapter_70": {
-      "status": "ok",
-      "errors": 0,
-      "warnings": 0
-    },
-    "adapter_e27": {
-      "status": "ok",
-      "errors": 0,
-      "warnings": 0
-    },
     "enclosure": {
       "status": "ok",
       "errors": 0,
@@ -34,20 +19,9 @@
       "status": "ok",
       "errors": 0,
       "warnings": 0
-    },
-    "tray": {
-      "status": "ok",
-      "errors": 0,
-      "warnings": 0
     }
   },
   "physical_prototype_tested": false,
-  "limits": [
-    "thermal and battery operation not tested",
-    "vendor foot shapes not verified",
-    "optical appearance illustrative",
-    "printer calibration and fit need prototype"
-  ],
   "geometry": {
     "wall_mm": 5.0,
     "floor_mm": 5.0,
@@ -56,36 +30,47 @@
     "emboss_depth_mm": 1.2,
     "emboss_front_width_mm": 78.057,
     "emboss_front_height_mm": 15.127,
-    "lid_and_tray_side_clearance_mm": 0.4,
-    "60mm_light_radial_clearance_mm": 0.5,
-    "light_envelope_mm": [
-      60,
-      60,
-      145
+    "lid_side_clearance_mm": 0.4,
+    "internal_floor_width_depth_mm": [
+      130,
+      130
     ],
-    "large_light_envelope_mm": [
-      100,
-      100,
-      150
+    "holder_check_envelope_mm": [
+      77,
+      77,
+      40
     ],
-    "alternate_rings": "no interference with body, cap or tray",
-    "tray_lift_samples_mm": [
-      20,
-      120,
-      250
-    ],
-    "negative_controls": "passed: shifted lid and oversize light collide"
+    "holder_width_assumption": "Width no greater than supplied 77 mm length; square envelope also contains a diameter-77 mm round base.",
+    "holder_mount_surface_z_mm": 5.0,
+    "holder_wall_clearance_mm": 26.5,
+    "holder_top_to_central_lid_underside_mm": 206.0,
+    "holder_insertion": "77 mm square vertical sweep clears open enclosure",
+    "negative_controls": "passed: shifted lid, shifted holder and holder below floor collide",
+    "limits": [
+      "new bulb dimensions not supplied; bulb fit not checked",
+      "adhesive thickness, bond strength and thermal performance not checked",
+      "holder envelope check only; no vendor CAD or universal E27 holder dimensions"
+    ]
   },
+  "assembly_step_interference": "passed: two parts, no shared volume",
+  "stl_validation": "passed: both exported parts closed, consistently wound, positive volume, CAD dimensions, print-bed orientation",
+  "visual_review": "exported assembly and top view of enclosure checked; flat floor and no internal printed holders",
+  "limits": [
+    "new bulb dimensions not supplied; bulb fit not checked",
+    "adhesive thickness, bond strength and thermal performance not checked",
+    "holder envelope check only; no vendor CAD or universal E27 holder dimensions",
+    "printer calibration and fit require a prototype"
+  ],
   "generic_rules_not_evaluated": [
-    "printing.pin_aspect",
     "printing.cantilever_length",
-    "printing.horizontal_hole_diameter",
-    "printing.escape_holes",
-    "printing.escape_hole_diameter",
-    "printing.hollow_wall",
     "printing.engrave_depth",
     "printing.engrave_width",
-    "printing.warp_length",
-    "printing.section_thickness"
+    "printing.escape_hole_diameter",
+    "printing.escape_holes",
+    "printing.hollow_wall",
+    "printing.horizontal_hole_diameter",
+    "printing.pin_aspect",
+    "printing.section_thickness",
+    "printing.warp_length"
   ]
 }

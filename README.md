@@ -4,7 +4,7 @@
 
 Amber translucent rectangular battery-lamp enclosure, inspired by the tall rectangular reference in https://www.cosmos.so/e/723682210.
 
-**140 × 140 × 256 mm**, plus 1.2 mm front emboss. **5 mm side walls, bottom and lid plate; raised VHONE lettering**. Lift-off lid and tray resized to the 130 mm interior; tray floor 3 mm; three optional sizing inserts. No electrical parts or mains wiring are included.
+**140 × 140 × 256 mm**, plus 1.2 mm front emboss. **5 mm side walls, bottom and lid plate; raised VHONE lettering**. Lift-off lid and a flat integral bottom for a purchased E27 bulb holder; 130 mm interior. No electrical parts or mains wiring are included.
 
 ## Printing
 
@@ -14,7 +14,7 @@ Dimensions, fit allowances, printing, assembly, source links and prototype limit
 
 ### Material
 
-Use amber translucent PETG for the body and lid. Print all STLs at 100% in millimetres, in their supplied orientations.
+Use amber translucent PETG for the body and lid. Print both STLs at 100% in millimetres, in their supplied orientations.
 
 ### Parts
 
@@ -26,10 +26,6 @@ Use amber translucent PETG for the body and lid. Print all STLs at 100% in milli
 
 `STL/lid.stl`
 
-#### 3. Tray
-
-`STL/tray.stl`
-
 ### Vendored parts
 
 #### 1. Bulb holder
@@ -40,13 +36,13 @@ https://www.takealot.com/mihuis-e27-screw-base-plastic-light-bulb-lamp-socket-ho
 
 #### 2. Bulb
 
-This E27 is battery powered. 
-It will need to be slotted into the bulb holder, and only removed when the battery has to be replaced/recharged.
+This E27 is battery powered.
+It will need to be screwed into the bulb holder, and only removed when the battery has to be replaced/recharged.
 
 https://www.takealot.com/drlight-18w-replaceable-battery-emergency-led-lamp-cool-white-e2/PLID93817224?gclsrc=aw.ds&gad_source=1&gad_campaignid=20031490687&gbraid=0AAAAADuiBEwjKu1axwk5v18_Yi7Lib6fK&gclid=Cj0KCQiAzeXXBhCGARIsADO5-zFyoHg21_HMxR8JLs2KxBClVwGIztSVyTERoyQ_3Bh3nFyOAtJ3qggaAqjcEALw_wcB
 
 #### 3. Glue
 
-B-7000 glue, perfect because its also transparent.
+B-7000 glue, chosen because it is transparent.
 
 https://www.takealot.com/b7000-transparent-glue-for-crafts-jewelry-cellphone-lcd-repair-1/PLID98006703
