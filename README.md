@@ -14,7 +14,7 @@ Dimensions, fit allowances, printing, assembly, source links and prototype limit
 
 ### Material
 
-Use amber translucent PETG for the body and lid. Print both STLs at 100% in millimetres, in their supplied orientations.
+Use amber translucent PETG for the body and lid. Print both STLs at 100% scale in millimetres, in their supplied orientations.
 
 ### Parts
 
