@@ -1,6 +1,6 @@
 # AMBER / 01
 
-Amber translucent rectangular battery-lamp enclosure, inspired by the tall rectangular reference in `examples/cosmos_723682210.webp`.
+Amber translucent rectangular battery-lamp enclosure, inspired by the tall rectangular reference in `[examples/cosmos_723682210.webp`](https://www.cosmos.so/e/723682210).
 
 **Revision B — 140 × 140 × 256 mm**, plus 1.2 mm front emboss. **5 mm side walls, bottom and lid plate; raised VHONE lettering**. Lift-off lid and tray resized to the 130 mm interior; tray floor 3 mm; three optional sizing inserts. No electrical parts or mains wiring are included.
 
