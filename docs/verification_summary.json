@@ -1,0 +1,91 @@
+{
+  "revision": "B",
+  "date": "2026-11-15",
+  "process": "FDM PETG",
+  "nozzle_mm": 0.4,
+  "layer_mm": 0.2,
+  "assumed_build_volume_mm": [
+    256,
+    256,
+    256
+  ],
+  "parts": {
+    "adapter_60": {
+      "status": "ok",
+      "errors": 0,
+      "warnings": 0
+    },
+    "adapter_70": {
+      "status": "ok",
+      "errors": 0,
+      "warnings": 0
+    },
+    "adapter_e27": {
+      "status": "ok",
+      "errors": 0,
+      "warnings": 0
+    },
+    "enclosure": {
+      "status": "ok",
+      "errors": 0,
+      "warnings": 0
+    },
+    "lid": {
+      "status": "ok",
+      "errors": 0,
+      "warnings": 0
+    },
+    "tray": {
+      "status": "ok",
+      "errors": 0,
+      "warnings": 0
+    }
+  },
+  "physical_prototype_tested": false,
+  "limits": [
+    "thermal and battery operation not tested",
+    "vendor foot shapes not verified",
+    "optical appearance illustrative",
+    "printer calibration and fit need prototype"
+  ],
+  "geometry": {
+    "wall_mm": 5.0,
+    "floor_mm": 5.0,
+    "lid_plate_mm": 5.0,
+    "emboss_text": "VHONE",
+    "emboss_depth_mm": 1.2,
+    "emboss_front_width_mm": 78.057,
+    "emboss_front_height_mm": 15.127,
+    "lid_and_tray_side_clearance_mm": 0.4,
+    "60mm_light_radial_clearance_mm": 0.5,
+    "light_envelope_mm": [
+      60,
+      60,
+      145
+    ],
+    "large_light_envelope_mm": [
+      100,
+      100,
+      150
+    ],
+    "alternate_rings": "no interference with body, cap or tray",
+    "tray_lift_samples_mm": [
+      20,
+      120,
+      250
+    ],
+    "negative_controls": "passed: shifted lid and oversize light collide"
+  },
+  "generic_rules_not_evaluated": [
+    "printing.pin_aspect",
+    "printing.cantilever_length",
+    "printing.horizontal_hole_diameter",
+    "printing.escape_holes",
+    "printing.escape_hole_diameter",
+    "printing.hollow_wall",
+    "printing.engrave_depth",
+    "printing.engrave_width",
+    "printing.warp_length",
+    "printing.section_thickness"
+  ]
+}

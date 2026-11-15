@@ -1,0 +1,253 @@
+AMBER / 01 — RECTANGULAR, OPENABLE BATTERY LAMP
+Revision B | 15 November 2026 | All dimensions in millimetres
+
+DESIGN
+Inspired by examples/cosmos_723682210.webp: a tall amber translucent rectangular
+block, clean vertical faces and a matching top cap. The photograph has no scale;
+all dimensions below are proposed, not measurements of the reference.
+User preference: amber translucent plastic; fabrication by a print shop.
+
+The enclosure is a single open-top printed cup with an integral bottom. The lid
+lifts straight off. A removable tray accepts interchangeable lamp-sizing rings.
+There are no glued closures, magnets, screws, electrical contacts or wired
+sockets. The lid and tray are gravity-retained; carry the lamp by the body/base,
+never by its lid. This is a prototype design, not a tested electrical product.
+
+KEY DIMENSIONS
+Assembled enclosure:                   140 W x 140 D x 256 H (body/lid; emboss adds 1.2 depth)
+Open-top enclosure part:              140 x 141.2 x 250 including raised text
+Side wall thickness:                  5.0 (0.5 cm)
+Integral bottom thickness:            5.0
+Outer vertical corner radius:         2.4
+Inner vertical corner radius:         0.8
+Main internal width/depth:            130.0 x 130.0
+Cavity bottom:                        Z = 5.0
+Lid exterior plate:                   140 x 140 x 5.0
+Lid overall print height:             13.0 (includes 8 mm locating skirt)
+Lid skirt outside:                    129.2 x 129.2
+Lid skirt wall:                       2.0
+Lid skirt penetration below rim:      7.0 when assembled
+Lid-to-body side clearance:            0.4 per side (0.8 across)
+Shadow/air gap below lid plate:        1.0
+Lid underside in assembly:            Z = 251.0
+Lid stop pads:                        four, 8 x 5.8 x 1.0
+Lid skirt air channels:               two, 24 mm wide
+Lower wall intake slots:              sixteen total, 3 W x 8 H
+Intake location:                      two opposing faces, Z = 8 to 16
+Total nominal lower intake area:      384 square mm
+Removable tray:                       129.2 x 129.2 x 11.0 overall
+Tray floor thickness:                 3.0
+Tray-to-body side clearance:           0.4 per side
+Tray's large cradle:                  102 inside diameter, 106 outside diameter
+Cradle height above tray:             8.0, with four 12 mm open notches
+Ribbon pull slots:                    two, 3 x 12, centred at X = +/-60, Y = 0
+Light support level, nominal:          Z = 8.0 (ribbon may lift this slightly)
+Suggested replacement light envelope: <=100 diameter x <=200 overall height
+                                      from its bottom support surface
+
+This envelope leaves at least 15.0 mm between a centred 100 mm light and each
+flat wall, and about 43.0 mm above a 200 mm light. It is a geometric allowance,
+not a thermal clearance approval. Include hooks, switches and protrusions when
+measuring. A light must sit stably upright, remain removable and operate on
+battery without external electrical contacts.
+
+EMBOSSED FRONT MARK
+Text: VHONE, uppercase, DejaVu Sans Bold, same amber material as the enclosure.
+Raised front profile: 78.057 wide x 15.127 high; nominal font size 20.
+Front face centre: X = 0, Z = 125; outward direction is -Y.
+Relief: 1.2 mm outward from the wall, giving a total local section of 6.2 mm.
+The lettering sides rise 1:1 outward to provide self-supporting lower surfaces;
+the readable front profile stays flat and parallel to the wall. Fused into the
+body as one solid. Overall envelope including text: 140 x 141.2 x 256.
+
+PARTS TO PRINT — STL files are already in their intended print orientation
+1 x enclosure.stl      amber translucent PETG; bottom on bed, opening upward
+1 x lid.stl            same PETG; cosmetic top face on bed, skirt upward
+1 x tray.stl           natural/white PETG, or amber if preferred; flat side down
+Choose ONE sizing ring if needed:
+  adapter_60.stl       61.0 bore; 101.2 nominal flange OD; 12.4 total height
+                      For a measured round base up to 60 mm diameter.
+  adapter_70.stl       70.5 bore; 101.2 nominal flange OD; 8.4 total height
+                      For a measured 69.5 mm puck.
+  adapter_e27.stl      28.4 bore; 101.2 nominal flange OD; 26.4 total height
+                      Optional plain mechanical cradle for an independently
+                      USB-rechargeable E27-style bulb. No thread or contacts.
+                      Check the actual base and shoulder before selecting it.
+No ring is required for the large nominal 100 mm lamp option.
+All ring flanges are 2.4 mm thick, with 2 mm collar walls and finger notches.
+Flange-to-tray cradle clearance is 0.4 radially. Because of the notches, the
+measured flange bounding box is 100.486 x 101.2 rather than a full 101.2 square.
+The ring has an open bore: the light rests on the tray floor, or its shoulder
+rests on the collar if that is how the selected bulb is shaped.
+
+The assembled STEP and viewer use the 60 mm ring for illustration. Do not print
+all three rings unless you want the alternatives. STEP files are editable solids;
+STLs contain millimetre geometry and should be imported at 100% scale.
+
+LIGHT SOURCING IN SOUTH AFRICA
+Checked online on 15 November 2026. Listed prices exclude delivery unless stated;
+stock and prices can change. These are candidates for a prototype. Supplier
+permission for use within another shade, actual base fit, stability and operating
+temperature still need checking. No light was purchased or physically measured.
+
+A. BEST BULB-SHAPED LOCAL OPTION: BRIGHT STAR BULB LED 298
+Portable USB/solar rechargeable lamp, published width 100 and height 150;
+5 W, 6500 K cool white, 450 lm, 1200 mAh lithium battery. Published USB charge
+about 2 hours and operating time 2-4 hours. Use the 102 mm tray cradle without
+an adapter. Its lower profile may taper: measure the actual foot; add a thin
+removable silicone shim if necessary, without covering vents or controls.
+The amber shade tints the output but does not turn 6500 K LEDs into a calibrated
+warm-white source. Remove the lamp for USB charging; do not rely on solar charging
+through the shade.
+GeeWiz listing: R154, external supplier stock indicated in search listing.
+https://www.geewiz.co.za/lighting/236783-bulb-led-298.html
+Wynberg Lights listing: R190, stock indicated; South African delivery.
+https://wynberglights.co.za/products/bright-star-bulb-led-298-portable-emergency-solar-bulb
+Manufacturer specifications, catalogue page 39:
+https://brightstarlighting.co.za/wp-content/uploads/2024/09/BRIGHT-STAR-LIGHTING-CAT-2024_LR-1.pdf
+
+B. COMPACT BUDGET ALTERNATIVE: BRIGHT STAR BULB LED 932
+A standalone USB-rechargeable lantern/torch, not a screw-in bulb. Manufacturer
+lists 60 mm width and 145 mm length, 5 W, 6000 K, 50/250 lm, approximately 5-hour
+charge and 3-hour lantern / 8-hour focus-light operation. Use its lantern setting.
+The 61 mm adapter is for a ROUND 60 mm footprint: the published width alone does
+not establish its exact cross-section or bottom shape. Buy/measure it before
+printing the ring; if it is non-circular, change the insert instead of the body.
+A conservative cylindrical 60 x 145 envelope was checked in CAD, not vendor CAD.
+Wynberg Lights: R68, in-stock listing observed.
+https://wynberglights.co.za/collections/torch/products/led-rechargeable-emergency-light
+Future Light: R67, add-to-cart listing observed. Its 230VAC field conflicts with
+the manufacturer's USB description; confirm charging details on the supplied unit.
+https://www.futurelight.co.za/products/5-w-led-rechargeable-bulb-cool-white-6000k
+Manufacturer:
+https://brightstarlighting.co.za/product/bulb-led-932/
+
+C. WARM-WHITE MOOD-LIGHT OPTION: MAVERICK RGB MAGNETIC PUCK
+Listed size diameter 69.5 x 28.7, USB-C, 500 mAh, 0.3 W, 20 lm, warm/neutral/cool
+and RGB modes with remote. The 70.5 mm ring allows 0.5 mm radial clearance.
+R164.40 on the opened page; marked SOLD OUT. Treat as a restock lead, not an
+immediately available recommendation. It is a gentle accent light; 20 lm before
+shade losses is unlikely to illuminate the whole tall body strongly. Test the
+remote through amber plastic; opening the lid may be needed for controls.
+https://www.mavericksales.co.za/products/rgb-magnetic-puck-light-rechargeable-led-under-cabinet-light-with-remote-control
+
+D. WARM-WHITE BULB IMPORT LEAD
+Desertcart SA lists an E27 rechargeable bulb with remote/touch, 3000 K and USB-C.
+This is an import-marketplace route, not verified South African shelf stock.
+Current price, delivered cost, exact base dimensions and enclosed-use suitability
+were not verified. Only use the E27 cradle after checking those details and that
+it switches on without a powered socket. Prefer a low-power dimmable model.
+https://www.desertcart.co.za/products/509931304-e27-rechargeable-light-bulb-remote-and-touch-3000k-warm-white
+
+Avoid treating every load-shedding E27 bulb as a cordless insert. For example,
+Gizzu Everglow GEB9WE27 is documented for a 230 V fitting and switches from warm
+white on mains to cool white in emergency mode. It is not the default for this
+unwired enclosure; do not improvise electrical contacts or bridge bulb terminals.
+https://www.syntech.co.za/wp-content/uploads/2024/05/Gizzu_Web_Catalogue_May_2024.pdf
+
+AMBER MATERIAL AND PRINT-SHOP BRIEF
+Specify AMBER TRANSLUCENT PETG, not solid orange, opaque brown or metallic silk.
+FDM parts will show layer lines and diffuse light; they will not match cast glass
+optical clarity. Request a 5.0 mm wall swatch lit by the selected lamp before the
+full print. Exact colour and light transmission are not guaranteed by the render.
+
+Local sourcing leads:
+- Filament Factory PETG Amber, R350 listed; OUT OF STOCK on the category page.
+  Best colour description, but confirm replenishment and translucency first.
+  https://filamentfactory.co.za/product/filament-factory-petg-amber/
+- FILX PETG Translucent Orange, R310 in 3rd Dimension's search listing; confirm
+  live stock and approve the shade. Orange is a substitute, not an exact amber.
+  https://www.3rddimensionprinting.co.za/category/all-products
+- Anycubic PETG Translucent Orange at NexGen Computing: R245.18 listed;
+  out of stock/backorder, advertised ETA 23 November 2026. Confirm before relying
+  on that date; use a sample to decide whether it is too orange.
+  https://nexgencomputing.co.za/collections/filaments/products/anycubic-petg-filament-translucent-orange
+
+PRINTING
+- Suggested process: FDM, 0.4 mm nozzle, 0.20 mm layers. Use dry PETG and the
+  filament maker's temperature/profile, calibrated by the print shop.
+- Body walls: fill the full 5.0 mm section using enough perimeters and/or solid
+  infill. Do NOT use vase mode or sparse infill in the translucent shell.
+  Preserve the solid bottom, raised lettering and all ventilation slots.
+- Make the thin plates solid; avoid sparse infill patterns visible through the
+  lid. The CAD cavities are air, not volumes to fill with support or infill.
+- Start with an approximately 8 mm outside brim on the tall body. A 256 mm-class
+  machine accommodates the 250 mm body height and brim footprint. A larger shop
+  printer is fine; no need to scale the design.
+- No structural supports intended. Intake slot roofs bridge only 3 mm. The
+  embossed lettering slopes upward as it projects outward, keeping its underside
+  at least 45 degrees from horizontal. Inspect the sliced text and bridging.
+  Print the lid inverted as supplied.
+- Keep the seam on a rear corner. Match body and lid material batch; both now
+  have 5 mm optical thickness. The 6.2 mm total section through the raised letters
+  will transmit differently. Compared with Revision A, this thicker amber shell
+  is heavier and likely dimmer; approve a lit 5 mm material sample first.
+- A 0.4 mm mating gap is a nominal sliding clearance. First-layer spread can
+  tighten the rings' bores: compensate/deburr and dry-fit before the full print.
+  Do not force the thin shell over an oversized lid or tray.
+- Geometric solid volume: approximately 917.0 cm3 for body + lid + tray;
+  933.0 cm3 with the 60 mm ring. At an ASSUMED PETG density of 1.27 g/cm3 this is
+  approximately 1165 g or 1185 g respectively, excluding brim, purge and waste.
+  The print shop's slicer and actual filament density determine the quote.
+- No physical print, slicing time estimate or dimensional calibration was done.
+
+ASSEMBLY AND SERVICING
+1. Remove brim and burrs. Confirm lid and tray slide freely without flexing walls.
+2. Thread a 10 mm-wide ribbon through the two tray slots, forming a loose loop
+   that can be reached just under the top opening. About 650-750 mm ribbon is a
+   useful starting length. Knot on top; keep it away from the light and vents.
+   The ribbon beneath the tray may raise it by its thickness; allow up to 1 mm.
+3. Place the tray inside the cup. Fit one adapter if needed. Charge the complete
+   lamp outside the enclosure, switch it on and lower it into the cradle.
+4. Check that its switch, hook and body clear the insert and that it cannot tip
+   against a wall. A tapered or unusual foot may need a custom sizing ring.
+5. Set the lid in place; the locating skirt enters the cup and the four pads
+   leave a deliberate 1 mm ventilation/shadow gap. Nothing locks or snaps.
+6. To swap or charge, lift the lid and lift the light out. To replace the whole
+   holder, use the ribbon. No adhesive or tools are needed for normal access.
+
+USE LIMITS AND PROTOTYPE VALIDATION
+Use an intact, protected, self-contained battery LED light. No mains wiring,
+incandescent or halogen bulb, exposed cell or homemade battery pack is included.
+The 5 W catalogue ratings above are NOT a certified enclosure power rating.
+Use the lowest useful setting. Confirm with the light supplier whether another
+shade is allowed; do not enclose a unit whose instructions prohibit it.
+Charge outside the enclosure. Indoor, dry use only: the complete lamp has no IP
+rating even if the purchased inner light does. Keep the air paths unobstructed.
+Before routine use, conduct an attended full-duration trial with the actual lamp
+and print, measuring temperatures against their manufacturers' limits. Stop if
+there is distortion, unusual heating or smell. The CAD tests do not establish
+thermal, battery, electrical, drop or tip-over safety, runtime, brightness or
+remote-control performance. Approve the physical sample before repeated use.
+
+VERIFICATION RECORD
+All six printable solid models passed the text-to-cad FDM/PETG checks at 0.4 mm
+nozzle, 0.2 mm layers and an assumed 256 x 256 x 256 build volume, with zero
+errors and zero warnings in the final revision. These are general-practice
+rules, not a print shop's qualification. Ring bores retain an informational
+first-layer-spread note; dry fit/deburr them.
+Exact assembly check: no shared volume among the four assembled printed parts.
+Measured geometry checks: overall dimensions, 5 mm walls/bottom/lid plate, 0.4 mm lid/tray gaps,
+seating contacts and the 60 x 145 cylindrical light envelope. Deliberately shifting
+the lid and oversizing the light produced interference, as expected.
+The script separately checks the larger 100 x 150 envelope and alternate rings.
+Not all FDM rules have thresholds: pin aspect, cantilever length, generic
+horizontal-hole diameter, powder/drain escape dimensions, hollow walls,
+engraving dimensions, warp length and section thickness were not evaluated by
+those generic rules. Thermal behaviour, optical appearance, tolerance stack-up,
+residual stress, adhesion and physical handling need a real prototype.
+Exported binary STLs also passed closed-edge, consistent winding, positive-volume,
+CAD dimension and print-bed orientation checks. Per-part JSON reports and the
+geometry/interference/STL logs are included in docs/.
+Measured five front letter faces: 78.057 x 15.127 mm, centred at X=0, Z=125;
+1.2 mm outward projection. Technical snapshots show the actual geometry. The appearance render uses an
+illustrative emitter and scalar material; it omits individual printed layer
+texture and does not predict a specific purchased light's output.
+
+FILES
+STL/        Six individual printable parts, units mm, mesh tolerance 0.04 mm.
+STEP/       Six editable parts and the assembled enclosure.
+GLB/        Coloured assembly for viewing/rendering.
+src/        Parametric build123d/text-to-cad source, checks and export script.
+previews/   Technical and appearance views.
+README.md   Quick handoff and interactive model links.

@@ -1,0 +1,1 @@
+OK AMBER_01: no two parts share volume (4 parts at 1 pose, the boxes of 4 pairs met: 1 apart, 1 kept, 2 measured, in 1.47 s)
