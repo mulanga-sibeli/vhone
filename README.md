@@ -32,10 +32,21 @@ Use amber translucent PETG for the body and lid. Print all STLs at 100% in milli
 
 ### Vendored parts
 
-#### 1. Bulb option 1
+#### 1. Bulb holder
 
-100 mm Bright Star BULB LED 298
+This will need to be glued onto the bottom of the enclosure.
 
-#### 2. Bulb option 2
+https://www.takealot.com/mihuis-e27-screw-base-plastic-light-bulb-lamp-socket-holder-pack/PLID73788759?gclsrc=aw.ds&gad_source=1&gad_campaignid=20031490687&gbraid=0AAAAADuiBEwjKu1axwk5v18_Yi7Lib6fK&gclid=Cj0KCQiAzeXXBhCGARIsADO5-zHQrdDg7SyKwI_Kcf5NXWgs3nd1Q_EIYEPuutoZCkPVrENSOiKRHa0aArdJEALw_wcB
 
-BULB LED 932, which requires printing the 60mm adapter.
+#### 2. Bulb
+
+This E27 is battery powered. 
+It will need to be slotted into the bulb holder, and only removed when the battery has to be replaced/recharged.
+
+https://www.takealot.com/drlight-18w-replaceable-battery-emergency-led-lamp-cool-white-e2/PLID93817224?gclsrc=aw.ds&gad_source=1&gad_campaignid=20031490687&gbraid=0AAAAADuiBEwjKu1axwk5v18_Yi7Lib6fK&gclid=Cj0KCQiAzeXXBhCGARIsADO5-zFyoHg21_HMxR8JLs2KxBClVwGIztSVyTERoyQ_3Bh3nFyOAtJ3qggaAqjcEALw_wcB
+
+#### 3. Glue
+
+B-7000 glue, perfect because its also transparent.
+
+https://www.takealot.com/b7000-transparent-glue-for-crafts-jewelry-cellphone-lcd-repair-1/PLID98006703
